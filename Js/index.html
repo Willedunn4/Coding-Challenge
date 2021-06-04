@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Notes</title>
+</head>
+<body>
+    <div class="add-note">
+       <a href="#myModal" class="add-note">Add Note</a>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h1 class="header">
+                Add Note
+            </h1>
+            <form class="note-form" action="">
+                <label for="">Title</label></br>
+                <input type="text" class="title"></br>
+                <label for="">Note</label></br>
+                <input class="note" type="text"></br>
+                <input class="submit" type="submit">
+                <div class="cancel">
+                    <a href="#close" class="cancel-btn">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <table class="note-table">
+        <tr>
+            <td class="header">Title</td>
+            <td class="header">Note</td>
+        </tr>
+    </table>
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>
